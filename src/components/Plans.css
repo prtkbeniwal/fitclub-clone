@@ -1,0 +1,90 @@
+.plans-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+    margin-top: 0.75rem;
+    gap: 4rem;
+}
+
+/* .blur-p-1 {
+    width: 32rem;
+    height: 23rem;
+    top: 6rem;
+    left: 0;
+}
+
+.blur-p-2 {
+    width: 32rem;
+    height: 23rem;
+    top: 6rem;
+    right: 0;
+} */
+
+.head-plan {
+    color: white;
+    display: flex;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: bold;
+    justify-content: center;
+    text-transform: uppercase;
+    gap: 2rem;
+}
+
+.plan-category {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan {
+    background-color: var(--caloryCard);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.5rem;
+    width: 15rem;
+}
+
+.plan>svg {
+    fill: var(--orange);
+    height: 2rem;
+    width: 2rem;
+}
+
+.plan>:nth-child(2) {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.plan>:nth-child(3) {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.feature {
+    display: flex;
+    gap: 1rem;
+}
+
+.feature>img {
+    height: 1rem;
+    width: 1rem;
+}
+
+.plan>:nth-child(5) {
+    font-size: .8rem;
+}
+
+.plan-category>:nth-child(2) {
+    background-color: var(--orange);
+    transform: scale(1.1);
+}

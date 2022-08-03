@@ -1,0 +1,66 @@
+.programs {
+     display: flex;
+     flex-direction: column;
+     gap: 2rem;
+     padding: 0 2rem;
+}
+
+.heading-p {
+     display: flex;
+     gap: 5rem;
+     font-weight: bold;
+     font-size: 3rem;
+     justify-content: center;
+     color: white;
+     text-transform: uppercase;
+     font-style: italic;
+}
+
+.programs-p {
+     display: flex;
+     gap: 1rem;
+}
+
+.program {
+     display: flex;
+     flex-direction: column;
+     flex: 1 1;
+     background-color: gray;
+     padding: 2rem;
+     gap: 1rem;
+     color: white;
+     justify-content: space-between;
+}
+
+/* flex 1 1 gives flex box equal dimentions */
+
+.program>:nth-child(1) {
+     width: 2rem;
+     height: 2rem;
+     fill: white;
+}
+
+.program>:nth-child(2) {
+     font-size: 1rem;
+     font-weight: bold;
+}
+
+.program>:nth-child(3) {
+     font-size: 0.9rem;
+     line-height: 25px;
+}
+
+.join-now {
+     gap: 2rem;
+     align-items: center;
+     display: flex;
+}
+
+.join-now>img{
+     width: 1rem;
+}
+
+.program:hover{
+     background: var(--planCard);
+     cursor: pointer;
+ }

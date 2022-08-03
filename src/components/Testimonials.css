@@ -1,0 +1,90 @@
+.tmonial {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.tmonial-left {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex: 1.1 1;
+    color: white;
+    text-transform: uppercase;
+}
+
+.tmonial-left>:nth-child(1) {
+    color: var(--orange);
+    font-weight: bold;
+}
+
+.tmonial-left>:nth-child(2) {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.tmonial-left>:nth-child(3) {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.tmonial-left>:nth-child(4) {
+    letter-spacing: 2px;
+    line-height: 40px;
+    text-align: justify;
+    text-transform: none;
+}
+
+
+/* .tmonial-left>:nth-child(5)>span {
+    color: orange;
+} */
+/* ******(read FIRST) used in inline function */
+
+
+.tmonial-right {
+    flex: 1 1;
+    position: relative;
+}
+
+.tmonial-right>:nth-child(1) {
+    background-color: transparent;
+    border: 2px solid orange;
+    height: 20rem;
+    width: 17rem;
+    position: absolute;
+    right: 9rem;
+    top: 0.9rem;
+}
+
+.tmonial-right>:nth-child(2) {
+    background-color: orange;
+    border: 2px solid orange;
+    height: 19rem;
+    width: 17rem;
+    position: absolute;
+    right: 7rem;
+    top: 4rem; 
+}
+
+.tmonial-right>:nth-child(3) {
+    height: 20rem;
+    width: 17rem;
+    position: absolute;
+    right: 8rem;
+    top: 2rem;    
+}
+
+.arrows {
+    position: absolute;
+    display: flex;
+    gap: 1rem;
+    left: 3rem;
+    bottom: 1rem;
+}
+
+.arrows>img {
+    cursor: pointer;
+    width: 1.5rem;
+}
+

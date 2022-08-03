@@ -1,0 +1,93 @@
+.reasons {
+     display: flex;
+     justify-content: space-between;
+     gap: 2rem;
+     padding: 0 2rem;
+}
+
+.left-r {
+     flex: 1;
+     gap: 2rem;
+     padding: 0;
+     position: relative;
+}
+
+.left-r>:nth-child(1) {
+     height: 28rem;
+     width: 12rem;
+}
+
+.left-r>:nth-child(2) {
+     position: absolute;
+     height: 16rem;
+     width: auto;
+     left: 13rem;
+}
+
+.left-r>:nth-child(3) {
+     position: absolute;
+     width: 14rem;
+     left: 13rem;
+     top: 17rem;
+}
+
+.left-r>:nth-child(4) {
+     position: absolute;
+     width: 10rem;
+     height: 11.2rem;
+     top: 17rem;
+     left: 28rem;
+}
+
+
+
+.right-r {
+     display: flex;
+     flex-direction: column;
+     flex: 1;
+     gap: 1rem;
+     color: white;
+     text-transform: uppercase;
+}
+
+.right-r>span {
+     color: var(--orange);
+     font-weight: bold;
+}
+
+.right-r>:nth-child(2) {
+     font-size: 3rem;
+     font-weight: bold;
+}
+
+.reason-list {
+     display: flex;
+     flex-direction: column;
+     gap: 1rem;
+}
+
+.reason-list>div {
+     display: flex;
+     gap: 1rem;
+     font-weight: bold;
+}
+
+.reason-list>div>img {
+     height: 2rem;
+     width: 2rem;
+}
+
+.reason-list>:nth-child(5)>img {
+     height: 2rem;
+     width: 2rem;
+}
+
+.partners {
+     display: flex;
+     gap: 1rem;
+}
+
+.partners>img {
+     width: 2.5rem;
+}
+

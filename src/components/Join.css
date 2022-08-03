@@ -1,0 +1,70 @@
+.joinus {
+    display: flex;
+    gap: 10rem;
+    padding: 0 2rem;
+}
+
+.left-j {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    position: relative;
+    text-transform: uppercase;
+    /* gap: 1rem; */
+}
+
+/* below line is same as above
+change only is something else
+is added only */
+
+/* .left-j>div {
+    flex: 1;
+    gap: 1rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+} */
+
+.left-j>hr {
+    border: 2px solid var(--orange);
+    border-radius: 20%;
+    margin: -10px 0;
+    position: absolute;
+    width: 10.5rem;
+}
+
+.left-j>div {
+    display: flex;
+    gap: 1rem;
+}
+
+.right-j {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.email-box {
+    display: flex;
+    gap: 3rem;
+    background-color: gray;
+    padding: 1rem 2rem; 
+}
+
+.email-box>input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--lightgray);
+    padding: 1px 2px;
+}
+
+.btn-j {
+    background-color: var(--orange);
+    color: white;
+}
+
+::placeholder {
+    color: var(--lightgray);
+}
